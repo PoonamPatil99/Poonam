@@ -1,0 +1,190 @@
+<script>
+// Edit your script here
+function C_details()
+{
+	Theatrename="PSS "
+	multiplexScreen = "screen 3 "
+	moviename = "JVT [ C,CPP] "
+	moviecertification = "U"
+	mclass = "first"
+	priceperticket = 1050
+	Numberoftickets = 5
+	seatnumbers ="c3,c4,c5"
+	Totalamount ="Rs.750.00"
+    
+     if(moviecertification == 'U')
+    {
+        document.writeln("U certified film")
+    }
+    else
+    {
+        document.writeln("A certified film")
+    }
+     if(priceperticket <= 1500)
+    {
+        document.writeln("Take a Ticket")
+    }
+    else
+    {
+        document.writeln("dont go")
+    }
+    
+    if(seatnumbers == 'c3,c4,c5')
+    {
+        document.writeln("You aare there in alotted seat")
+    }
+    else
+    {
+        document.writeln("not in alotted seat")
+    }
+    
+    if(Numberoftickets == 5)
+    {
+   return "right numbers of tickets"
+    }
+    else
+    {
+    document.writeln("number are tickets differed")
+    }
+    
+    
+}
+var res = C_details()
+document.write(res)
+//------------------------------------------------------------------------------------------------------------------------------------------------------------------  
+function google_account(){
+   First_Name = 'venkatesh'
+   Last_Name : 'hk'
+   Choose_Username = 'jvt'
+   Creat_a_Password = 'balu'
+   Confirm_Your_Password = 'balu'
+   Birthday = '2-6-1986'
+   Gender = 'male'
+   Mobile = 9900367097
+   Your_current_email_address = 'venkatesh.db@gmail.com'
+   if (First_Name == 'venkatesh')
+   {
+   		return First_Name
+   }
+   else
+   {
+   		return Last_Name
+   }
+  
+}
+var res = google_account()
+ document.writeln(res)
+//-----------------------------------------------------------------------------------------------------------------------------------------------------------------
+function blood_R()
+{
+	Patient_Name = "Sathish"
+	Patient_ID = 10567890890
+	Patient_phone = 044222738
+	Billno = 56725
+	Age =34
+	Date_of_Birth ="15/05/1991"
+	Gender = "Male"
+	Fasting= "Yes"
+	Patient_Address = "7f,kaveri road, velur."
+	Room_No = 105
+	Date_of_time_Collected_blood = "08/09/15 and 08:15"
+	Enter_date = "08/09/15"
+	Date_and_Time_Respond = "08/09/15 and 09:16"
+    if(Patient_Name == "Sathish")
+    {
+    	return "patient name sathish"
+    }
+    else
+    {
+    	return "other patients data"
+    }
+}
+        
+var data =  blood_R()
+document.writeln(data)
+//---------------------------------------------------------------------------------------------------------------------------------------------------------------------
+<script>
+// Edit your script here
+class Appearance {
+constructor(weight, height, Eyecolor, gender) 
+{
+ 		this.weight =  weight
+        this.height = height
+        this.Eyecolor= Eyecolor
+        this.gender =  gender
+        if( height == "5.8" )
+        {
+ 			document.write("Valid")     
+        }
+        else
+        {
+        	document.write( "InValid")  
+        }
+ }
+contactdetails(address, phone, mobile, state, country) {
+    	this.address = address 
+        this.phone = phone
+        this.mobile = mobile
+        this.state = state
+        this.country = country
+        document.writeln(this.address,this.phone,this.mobile,this.state,this.country)
+        if(mobile == 8889994440)
+        {
+         	document.write("valid Number")
+        }
+        else
+        {
+        	document.write("Invalid Number")
+        }
+    }
+display() 
+{
+    	document.writeln(this.weight,this.height,this.Eyecolor, this.gender)
+        document.writeln(this.address,this.phone,this.mobile,this.state,this.country)
+}    
+}
+var information =  new Appearance("5.5", "5.8","brown", "male")
+information.contactdetails("#6/96,rajapet,kadapa", 975545445, 8889994440, "Andrapradesh", "India") 
+information.display()
+
+//------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+//<script>
+// Edit your script here
+class library {
+constructor(BookID,Bookname,BookAuthor,IssueDate,DueDate,IDNo,Name,Returnon,Fine)
+{
+this.BookID = BookID 
+this.Bookname = Bookname
+this.BookAuthor = BookAuthor
+this.IssueDate = IssueDate
+this.DueDate = DueDate
+this.IDNo = IDNo 
+this.Name = Name
+this.Returnon =Returnon
+this.Fine = Fine 
+}
+postoffice(PostofficeDetails,trackingNumber,CounterNo,opcode,Fromaddress,ToAddress,wgt,Amt,datetime,Taxes)
+{
+this.PostofficeDetails = PostofficeDetails 
+this.trackingNumber = trackingNumber
+this.CounterNo = CounterNo 
+this.opcode = opcode 
+this.Fromaddress =Fromaddress 
+this.ToAddress = ToAddress
+this.wgt = wgt
+this.Amt = Amt
+this.datetime = datetime
+this.Taxes = Taxes
+document.writeln(this.PostofficeDetails,this.trackingNumber ,this.CounterNo,this.opcode,this.Fromaddress,this.ToAddress ,this.wgt,this.Amt,this.datetime,this.Taxes)
+}
+display()
+{
+document.writeln(this.BookID,this.Bookname,this.BookAuthor,this.IssueDate,this.DueDate,this.IDNo,this.Name,this.Returnon,this.Fine)
+}
+}
+let Library = new library(12345634,"C Programming","Dennis Ritche","14/01/2012","13/02/2012", "2008Ec027", "Saravanan","25/02/2012",12)
+Library.display()
+Library.postoffice("New Thipasundra<423203>","EM423395510IN",1,12,"xxxxxx","xxxxxx","20grms","39.00", "08/04/2013 16:01", "Rs.4.00")
+//----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+</script>
+<!-- edit your html here -->
