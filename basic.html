@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>HTML Basics</title>
+<style>
+    .styled {
+        border: 0;
+        line-height: 2.5;
+        padding: 0 20px;
+        font-size: 1rem;
+        text-align: center;
+        color: #fff;
+        text-shadow: 1px 1px 1px #000;
+        border-radius: 10px;
+        background-color: chartreuse;
+       
+    }
+    
+    .styled:hover {
+        background-color: rgba(255, 0, 0, 1);
+    }
+
+    form.form-example {
+    display: table;
+}
+
+div.form-example {
+    display: table-row;
+}
+
+label, input {
+    display: table-cell;
+    margin-bottom: 10px;
+}
+
+label {
+    padding-right: 10px;
+}
+
+    
+</style>
+    
+    
+
+</head>
+<body>
+    <p> Hii this is poonam</p>
+    <hr>
+    <a href="https://google">go to google</a>
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRO1kBg1lybxp7QqaZPlR4Q6BIkm0uMHjFY_w&usqp=CAU" alt="Error in loading image
+    ">
+    <ul type ="circle">
+        <li> this is type1</li>
+    </ul>    
+    <ol type ="I">  
+        <li> this is type2</li>
+    </ol>
+
+    <!--google forms-->
+    <h3>ssc form</h3>
+    <div>
+        Firstname : <input type="text">
+        Lastname : <input type="text">
+    </div>
+    <div>
+        Email : <input type="email" name="">
+    </div>
+    <div>
+        Phone number : <input type="text">
+    </div>
+    <div>
+        <label>Do u have adharcard</label>
+        <input type="checkbox">
+    </div>
+    <div>
+        <label> Adharcard Number</label>
+        <input type = "text">
+    </div>
+    <div>
+        <label>Gender : </label>
+        <input type="radio"  value="Male">male
+        <input type="radio"  value="Female">female
+        <input type="radio"   value="other">other
+    </div>
+    <div>
+        <label>DOB : </label> 
+        <input type="date">
+    </div>
+    <div>
+        <label>Are u physically disabled : </label>
+        <input type ="radio" value = "yes">yes
+        <input type="radio" value="no">no
+    </div>
+    <button class="styled"
+        type="button">
+        click me 
+    
+</button>
+    <span style="border: 20px solid burlywood; ">poonam</span>
+
+    <!--Table Formation-->
+    <h4> Table Formation</h4>
+    <table>
+        <thead>
+            <tr></tr>
+                <th>S.No</th>
+                <th>Components</th>
+                <th>Specifications</th>
+                <th>Quantity</th>
+
+            </tr>
+
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>UJT</td>
+                <td>2N 2646</td>
+                <td>2</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Resistor</td>
+                <td>220ohms</td>
+                <td>1</td> 
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Capacitor</td>
+                <td>0.01uf</td>
+                <td>5</td> 
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>CRO</td>
+                <td>20MHZ</td>
+                <td>1</td> 
+            </tr>
+            <tr>
+                <td>5</td>
+                <td>Function Generator</td>
+                <td>1MHZ</td>
+                <td>2</td> 
+            </tr>
+            <tr>
+                <td>6</td>
+                <td>Regulated power supply</td>
+                <td>(0-30V),1A</td>
+                <td>1</td> 
+            </tr>
+
+        </tbody>
+
+    </table>
+
+    <form action="" method="get" class="form-example">
+        <div class="form-example">
+          <label for="name">Enter your name: </label>
+          <input type="text" name="name" id="name" required>
+        </div>
+        <div class="form-example">
+          <label for="email">Enter your email: </label>
+          <input type="email" name="email" id="email" required>
+        </div>
+        <div class="form-example">
+          <input type="submit" value="login">
+        </div>
+      </form>
+</body>
+</html>
